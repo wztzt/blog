@@ -457,7 +457,7 @@ hasCJKLanguage = true
       Mix = false
     #  评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       #  Artalk 评论系统设置 (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false
@@ -701,7 +701,7 @@ hasCJKLanguage = true
 
   #  Cookie 许可配置
   [params.cookieconsent]
-    enable = true
+    enable = false
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]
       message = ""
