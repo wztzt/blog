@@ -4,12 +4,12 @@ subtitle:
 date: 2023-05-16T16:17:10+08:00
 draft: false
 author:
-  name:wzrtzt
-  link:https://www.utask.top
-  email:wzrtzt@163.com
-  avatar:/images/head.jpg
-description:这是一个测试文章
-keywords:测试
+  name: wzrtzt
+  link: https://www.utask.top
+  email: wzrtzt@163.com
+  avatar: /images/head.jpg
+description: 这是一个测试文章
+keywords: 测试
 license:
 comment: true
 weight: 0
