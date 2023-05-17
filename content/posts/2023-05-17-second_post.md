@@ -2,7 +2,7 @@
 title: 这是第二篇测试文章
 subtitle: 第二篇
 date: 2023-05-17T09:56:03+08:00
-draft: true
+draft: false
 author: 
   name: wzrtzt
   link: https://www.utask.top
