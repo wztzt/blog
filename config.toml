@@ -41,7 +41,7 @@ hasCJKLanguage = true
   # 网站默认主题样式 ["light", "dark", "auto"]
   defaultTheme = "auto"
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-  gitRepo = ""
+  gitRepo = "https://github.com/wztzt"
   #  哪种哈希函数用来 SRI, 为空时表示不使用 SRI
   # ["sha256", "sha384", "sha512", "md5"]
   fingerprint = ""
@@ -141,7 +141,7 @@ hasCJKLanguage = true
     license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
     #  网站创立时间
     [params.footer.siteTime]
-      enable = false
+      enable = true
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
@@ -194,13 +194,13 @@ hasCJKLanguage = true
     [params.home.profile]
       enable = true
       # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = ""
+      gravatarEmail = "wzrtzt@163.com"
       # 主页显示头像的 URL
       avatarURL = "/images/head.jpg"
       #  头像菜单链接的 identifier
       avatarMenu = ""
       #  主页显示的网站标题（支持 HTML 格式）
-      title = ""
+      title = "tzt-blog"
       # 主页显示的网站副标题
       subtitle = "哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
       # 是否为副标题显示打字机动画
@@ -300,7 +300,7 @@ hasCJKLanguage = true
     Feishu = ""
     TryHackMe = ""
     Phone = ""
-    Email = ""
+    Email = "wzrtzt@163.com"
     RSS = true
 
   #  文章页面配置
@@ -334,7 +334,7 @@ hasCJKLanguage = true
     # gravatarForce = true
     #  开启自动书签支持
     # 如果为 true，则在关闭页面时保存阅读进度
-    autoBookmark = false
+    autoBookmark = true
     #  是否使用 字数统计
     wordCount = true
     #  是否使用 预计阅读
@@ -379,7 +379,7 @@ hasCJKLanguage = true
     [params.page.edit]
       enable = false
       #  编辑的基础链接
-      # url = "/edit/branch-name/subdirectory-name" # 相对于 `params.gitRepo`
+      # url = "/edit/main/content/posts" # 相对于 `params.gitRepo`
       # url = "https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name" # 完整链接
       url = ""
     #  KaTeX 数学公式 (https://katex.org)
@@ -428,10 +428,10 @@ hasCJKLanguage = true
     #  文章页面的分享信息设置
     [params.page.share]
       enable = false
-      Twitter = true
-      Facebook = true
+      Twitter = false
+      Facebook = false
       Linkedin = false
-      Whatsapp = true
+      Whatsapp = false
       Pinterest = false
       Tumblr = false
       HackerNews = false
@@ -439,7 +439,7 @@ hasCJKLanguage = true
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Digg = false
@@ -624,7 +624,7 @@ hasCJKLanguage = true
     # 打字结束之后光标的持续时间（单位是毫秒，"-1" 代表无限大）
     duration = -1
     #  打字完成后是否会连续循环
-    loop = false
+    loop = true
 
   #  Mermaid 配置
   [params.mermaid]
@@ -634,7 +634,7 @@ hasCJKLanguage = true
   #  盘古之白配置
   [params.pangu]
     # 适用于中文写作用户
-    enable = false
+    enable = true
     selector = "article" # 
 
   #  水印配置
@@ -725,7 +725,7 @@ hasCJKLanguage = true
   #  在左上角或者右上角显示 GitHub 开源链接
   [params.githubCorner]
     enable = false
-    permalink = "https://github.com/hugo-fixit/FixIt"
+    permalink = "https://github.com/wztzt"
     title = "在 GitHub 上查看源代码"
     position = "right" # ["left", "right"]
 
@@ -758,7 +758,7 @@ hasCJKLanguage = true
   #  页面加载期间顶部的进度条
   # 有关详细信息：https://github.com/CodeByZach/pace
   [params.pace]
-    enable = false
+    enable = true
     # 所有可用颜色：
     # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
     color = "blue"
@@ -820,8 +820,8 @@ hasCJKLanguage = true
 # 作者配置
 [author]
   name = "wztzt"
-  email = ""
-  link = ""
+  email = "wzrtzt@163.com"
+  link = "https://www.utask.top/"
   avatar = "/images/head.jpg" # 
 
 # 网站地图配置
@@ -832,8 +832,8 @@ hasCJKLanguage = true
 
 # Permalinks 配置 (https://gohugo.io/content-management/urls#permalinks)
 [Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":year/:month/:filename"
+  #posts = ":filename"
 
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
